@@ -1,0 +1,94 @@
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 20%;
+  font-style: italic;
+}
+
+img {
+  float: left;
+  margin-right: 12px;
+}
+
+.rimage{
+  width: 80px;
+  height: 80px;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  color: Blue;
+  margin-bottom: 12px;
+}
+
+h1{
+  font-size: 22px;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  color: white;
+  font-style: italic;
+}
+
+h4 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+}
+
+span {
+  font-style: italic;
+  color: blue;
+}
+
+.result1{
+  display: none;
+}
+
+.result2{
+  display: none;
+}
+
+.result3{
+  display: none;
+}
+
+.result4{
+  display: none;
+}
+
+<!-Had to copy and paste following css styles online due to not being included in bootstrap version im using ->
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel-default>.panel-heading {
+    background-color: #17a2b8;
+    border-color: #ddd;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.panel-body {
+    background-color: #f7f9f7;
+    padding: 15px;
+}
